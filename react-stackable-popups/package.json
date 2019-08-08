@@ -1,0 +1,41 @@
+{
+  "name": "react-stackable-popups",
+  "version": "1.0.0",
+  "description": "Create stackable Popup/Snackbar/Toast messages, either with built in components or provide your own.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WEeziel172/react-stackable-popups",
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
+  },
+  "keywords": [
+    "React",
+    "Hooks",
+    "HoC",
+    "Popups",
+    "Snackbars",
+    "Toasts"
+  ],
+  "author": "WEeziel72",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WEeziel172/react-stackable-popups/issues"
+  },
+  "homepage": "https://github.com/WEeziel172/react-stackable-popups#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.8.6"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "files": [
+    "dist/*"
+  ]
+}
